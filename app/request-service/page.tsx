@@ -284,13 +284,23 @@ export default function RequestService() {
                 className={fieldStyle}
               />
 
-              <input
-                name="preferred_date"
-                type="date"
-                value={form.preferred_date}
-                onChange={updateField}
-                className={fieldStyle}
-              />
+              <div className="relative">
+  <label
+    htmlFor="preferred_date"
+    className="pointer-events-none absolute left-4 top-2 z-10 text-xs font-medium text-gray-500"
+  >
+    Preferred Date
+  </label>
+
+  <input
+    id="preferred_date"
+    name="preferred_date"
+    type="date"
+    value={form.preferred_date}
+    onChange={updateField}
+    className="w-full rounded-xl border border-gray-300 bg-white px-4 pb-3 pt-7 text-base text-[#062B52] focus:border-[#E5A91A] focus:outline-none focus:ring-2 focus:ring-[#E5A91A]/20 [color-scheme:light]"
+  />
+</div>
 
               <input
                 name="preferred_time"
