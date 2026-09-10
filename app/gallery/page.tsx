@@ -14,8 +14,8 @@ const photos = [
   },
   {
     src: "/gallery/cleaning-3.jpg",
-    title: "Restaurant Kitchen",
-    description: "Keeping restaurant kitchens clean and organized."
+    title: "Restaurant Cleaning",
+    description: "Keeping restaurant clean and organized."
   },
   {
     src: "/gallery/cleaning-4.jpg",

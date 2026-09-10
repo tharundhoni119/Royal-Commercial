@@ -104,7 +104,7 @@ export default function Home() {
                   <li>✓ Restaurant Cleaning</li>
                   <li>✓ Scheduled Maintenance</li>
                   <li>✓ Kitchen Equipment Cleaning</li>
-                  <li>✓ Front & Back of House Cleaning</li>
+                  <li>✓ Hood Cleaning</li>
 
                 </ul>
 

@@ -209,10 +209,6 @@ export default function RequestService() {
               >
                 <option value="">Select a service</option>
 
-                <option value="Commercial Kitchen Cleaning">
-                  Commercial Kitchen Cleaning
-                </option>
-
                 <option value="Deep Kitchen Cleaning">
                   Deep Kitchen Cleaning
                 </option>
@@ -223,6 +219,10 @@ export default function RequestService() {
 
                 <option value="Scheduled Maintenance">
                   Scheduled Maintenance
+                </option>
+
+                <option value="Hood Cleaning">
+                  Hood Cleaning
                 </option>
 
                 <option value="Staffing Services">
