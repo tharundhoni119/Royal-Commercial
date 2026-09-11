@@ -140,6 +140,202 @@ export default function Home() {
 
         </section>
 
+                {/* OTHER CLEANING SERVICES */}
+
+        <section className="bg-[#F4F7FA] px-6 py-20">
+
+          <div className="mx-auto max-w-7xl">
+
+            {/* Section Header */}
+
+            <div className="mx-auto mb-14 max-w-3xl text-center">
+
+              <p className="font-bold uppercase tracking-widest text-[#E5A91A]">
+                More Ways We Can Help
+              </p>
+
+              <h2 className="mt-2 text-4xl font-bold text-[#062B52]">
+                Other Cleaning Services
+              </h2>
+
+              <p className="mt-5 text-lg leading-8 text-gray-600">
+                Royal provides professional cleaning solutions for more than
+                restaurants. From commercial buildings and warehouses to
+                post-construction sites, our team is prepared with the
+                equipment and experience needed to handle demanding
+                commercial cleaning projects.
+              </p>
+
+            </div>
+
+
+            {/* Service Cards */}
+
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+              {/* Carpet Cleaning */}
+
+              <div className="group rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E5A91A] text-lg font-bold text-[#062B52]">
+                  01
+                </div>
+
+                <h3 className="text-xl font-bold text-[#062B52]">
+                  Carpet Cleaning
+                </h3>
+
+                <p className="mt-3 leading-7 text-gray-600">
+                  Professional commercial carpet cleaning to remove dirt,
+                  stains and buildup while helping maintain a cleaner and more
+                  professional environment.
+                </p>
+
+              </div>
+
+
+              {/* Tile & Grout */}
+
+              <div className="group rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E5A91A] text-lg font-bold text-[#062B52]">
+                  02
+                </div>
+
+                <h3 className="text-xl font-bold text-[#062B52]">
+                  Tile & Grout Cleaning
+                </h3>
+
+                <p className="mt-3 leading-7 text-gray-600">
+                  Deep cleaning for tile and grout to remove embedded dirt,
+                  grease and buildup from high-traffic commercial areas.
+                </p>
+
+              </div>
+
+
+              {/* Auto Scrubbing */}
+
+              <div className="group rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E5A91A] text-lg font-bold text-[#062B52]">
+                  03
+                </div>
+
+                <h3 className="text-xl font-bold text-[#062B52]">
+                  Auto Scrubbing
+                </h3>
+
+                <p className="mt-3 leading-7 text-gray-600">
+                  Machine floor scrubbing for large commercial spaces,
+                  providing a deeper and more consistent clean than
+                  traditional mopping.
+                </p>
+
+              </div>
+
+
+              {/* Power Washing */}
+
+              <div className="group rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E5A91A] text-lg font-bold text-[#062B52]">
+                  04
+                </div>
+
+                <h3 className="text-xl font-bold text-[#062B52]">
+                  Power Washing
+                </h3>
+
+                <p className="mt-3 leading-7 text-gray-600">
+                  High-pressure exterior cleaning for sidewalks, entrances,
+                  loading areas, patios and other commercial surfaces.
+                </p>
+
+              </div>
+
+
+              {/* Post Construction */}
+
+              <div className="group rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E5A91A] text-lg font-bold text-[#062B52]">
+                  05
+                </div>
+
+                <h3 className="text-xl font-bold text-[#062B52]">
+                  Post-Construction Cleaning
+                </h3>
+
+                <p className="mt-3 leading-7 text-gray-600">
+                  Detailed cleanup after construction or renovation,
+                  including dust, debris and surface cleaning to prepare the
+                  property for use.
+                </p>
+
+              </div>
+
+
+              {/* Commercial Buildings */}
+
+              <div className="group rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E5A91A] text-lg font-bold text-[#062B52]">
+                  06
+                </div>
+
+                <h3 className="text-xl font-bold text-[#062B52]">
+                  Commercial Building Cleaning
+                </h3>
+
+                <p className="mt-3 leading-7 text-gray-600">
+                  Reliable cleaning services for offices, retail properties,
+                  common areas and other commercial facilities.
+                </p>
+
+              </div>
+
+
+              {/* Industrial / Warehouse */}
+
+              <div className="group rounded-3xl border border-gray-200 bg-white p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl sm:col-span-2 sm:mx-auto sm:w-full sm:max-w-xl lg:col-span-1 lg:col-start-2 lg:max-w-none">
+
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#E5A91A] text-lg font-bold text-[#062B52]">
+                  07
+                </div>
+
+                <h3 className="text-xl font-bold text-[#062B52]">
+                  Industrial Manufacturing Facility & Warehouse Cleaning
+                </h3>
+
+                <p className="mt-3 leading-7 text-gray-600">
+                  Heavy-duty cleaning solutions for manufacturing facilities,
+                  warehouses, distribution areas and other industrial environments.
+                  Services can be customized based on the size, condition and
+                  operational needs of the facility.
+                </p>
+
+              </div>
+
+            </div>
+            
+            {/* Bottom CTA */}
+
+            <div className="mt-12 text-center">
+
+              <Link
+                href="/request-service"
+                className="inline-block rounded-full bg-[#062B52] px-8 py-4 font-bold text-white transition hover:bg-[#0b3b6d]"
+              >
+                Request a Cleaning Quote
+              </Link>
+
+            </div>
+
+          </div>
+
+        </section>
+
 
         {/* WHY ROYAL */}
 

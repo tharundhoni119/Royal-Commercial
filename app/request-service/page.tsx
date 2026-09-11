@@ -69,17 +69,59 @@ export default function RequestService() {
         body: JSON.stringify(form),
       });
 
-      if (response.ok) {
-        setSubmitted(true);
-      } else {
-        alert("Something went wrong. Please call us directly.");
-      }
-    } catch (error) {
-      console.error("Request submission error:", error);
-      alert("Something went wrong. Please call us directly.");
-    } finally {
-      setLoading(false);
+      if (!response.ok) {
+      alert(
+        "Something went wrong. Please call us directly."
+      );
+
+      return;
     }
+
+    // STEP 2:
+    // Send an email notification to your Gmail.
+    // If email fails, the customer request is still saved.
+    try {
+      const emailResponse = await fetch(
+        "/api/notify-request",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(form),
+        }
+      );
+
+      if (!emailResponse.ok) {
+        console.error(
+          "Request was saved, but email notification failed."
+        );
+      }
+    } catch (emailError) {
+      console.error(
+        "Email notification error:",
+        emailError
+      );
+    }
+
+    // STEP 3:
+    // Show the customer the success screen.
+    setSubmitted(true);
+
+  } catch (error) {
+    console.error(
+      "Request submission error:",
+      error
+    );
+
+    alert(
+      "Something went wrong. Please call us directly."
+    );
+
+  } finally {
+    setLoading(false);
+  }
+
   }
 
   if (submitted) {
