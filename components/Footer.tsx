@@ -22,15 +22,15 @@ export default function Footer() {
 
           <p>
             <strong>Phone:</strong>{" "}
-            <a href="tel:+17167919654">
-              (716) 791-9654
+            <a href="tel:+17164261957">
+              (716) 426-1957
             </a>
           </p>
 
           <p>
             <strong>Phone:</strong>{" "}
-            <a href="tel:+17165770400">
-              (716) 577-0400
+            <a href="tel:+19087747489">
+              (908) 774-7489
             </a>
           </p>
 
