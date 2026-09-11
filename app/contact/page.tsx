@@ -30,7 +30,7 @@ export default function Contact() {
           <div className="mt-12 grid gap-6 md:grid-cols-3">
 
             <a
-              href="tel:+17167919654"
+              href="tel:+17164261957"
               className="rounded-2xl bg-white p-8 shadow"
             >
               <h2 className="font-bold text-[#062B52]">
@@ -38,13 +38,13 @@ export default function Contact() {
               </h2>
 
               <p className="mt-3">
-                (716) 791-9654
+                (716) 426-1957
               </p>
             </a>
 
 
             <a
-              href="tel:+17165770400"
+              href="tel:+19087747489"
               className="rounded-2xl bg-white p-8 shadow"
             >
               <h2 className="font-bold text-[#062B52]">
@@ -52,7 +52,7 @@ export default function Contact() {
               </h2>
 
               <p className="mt-3">
-                (716) 577-0400
+                (908) 774-7489
               </p>
             </a>
 
